@@ -5,7 +5,7 @@
 list = ["ab", "cd", "ef"]
 
 def my_each(array)
-   if block_given?
+  # if block_given?
   i = 0
   while i < array.length
 # The "while" method will always return a value of => nil"
