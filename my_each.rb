@@ -14,6 +14,8 @@ def my_each(array)
   end
   
   array
+else
+ puts "Hay! No block was given!"
 end
 
 # my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
