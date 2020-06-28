@@ -5,7 +5,6 @@
 list = ["ab", "cd", "ef"]
 
 def my_each(array)
-  # if block_given?
   i = 0
   while i < array.length
 # The "while" method will always return a value of => nil"
@@ -14,9 +13,6 @@ def my_each(array)
   end
   
   array
-else
- puts "Hay! No block was given!"
-end
 end
 
 # my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
